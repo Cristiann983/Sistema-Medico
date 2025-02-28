@@ -420,8 +420,8 @@ private String generarRecetaPDF(String nombrePaciente, String motivo, String fec
 
 
 private void enviarCorreoConAdjunto(String destinatario, String asunto, String cuerpo, String filePath) {
-    final String remitente = "cristiangerardo0707@gmail.com";
-    final String password = "wydn zjmz svkg ypkp";
+    final String remitente = "correoELctronico";
+    final String password = "contraselaDeAccesoDelCorreo";
 
     // Configuración del servidor SMTP de Gmail
     Properties props = new Properties();
